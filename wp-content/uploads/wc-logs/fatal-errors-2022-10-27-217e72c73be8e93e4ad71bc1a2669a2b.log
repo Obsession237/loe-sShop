@@ -1,0 +1,36 @@
+2022-10-27T01:53:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-content\plugins\wpforms-lite\src\Admin\Challenge.php on line 724
+
+2022-10-27T01:55:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-includes\class.wp-scripts.php on line 514
+
+2022-10-27T01:59:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-includes\wp-db.php on line 2169
+
+2022-10-27T02:55:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-includes\widgets\class-wp-widget-media.php on line 513
+
+2022-10-27T02:58:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-includes\wp-db.php on line 2169
+
+2022-10-27T03:00:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-content\themes\astra\inc\customizer\class-astra-customizer.php on line 12
+
+2022-10-27T03:01:57+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-content\plugins\elementor\core\app\modules\kit-library\data\taxonomies\controller.php on line 6
+
+2022-10-27T03:02:46+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-admin\includes\ajax-actions.php on line 5526
+
+2022-10-27T03:22:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-gutenberg.php on line 9
+
+2022-10-27T03:24:36+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-includes\wp-db.php on line 2169
+
+2022-10-27T03:34:28+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\loe-sShop\wp-content\themes\astra\inc\compatibility\woocommerce\class-astra-woocommerce.php on line 11
+
+2022-10-27T03:37:40+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\loe-sShop\wp-content\plugins\elementor\core\base\document.php:942
+Stack trace:
+#0 C:\xampp\htdocs\loe-sShop\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\loe-sShop\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(4565)
+#2 C:\xampp\htdocs\loe-sShop\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\loe-sShop\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\loe-sShop\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\loe-sShop\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\loe-sShop\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\loe-sShop\wp-includes\plugin.php(524): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\loe-sShop\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown in C:\xampp\htdocs\loe-sShop\wp-content\plugins\elementor\core\base\document.php on line 942
+
